@@ -23,7 +23,7 @@ class PrivateDl:
                 or dl.cancel()
     """
 
-    def __init__(self, fake_useragent: bool = False, chunk_size = None, download_path=None):
+    def __init__(self, fake_useragent: bool = False, chunk_size = None, download_path=None ,filename=None):
         self.chunk_size = chunk_size
         self.total_size = 0
         self.downloaded = 0
@@ -31,7 +31,7 @@ class PrivateDl:
         self.download_path = download_path
         self.download_speed = 0
         self.eta = "NaN"
-        self.filename = "Unknown"
+        self.filename = filename
         self.url = None
         self.file_type = None
         self.session = None
