@@ -13,7 +13,7 @@ setuptools.setup(
     description="A Python Asynchronous Downloader - pyaiodl",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/aryanvikash/pyaiodl",
+    url="https://github.com/batatavadaX/pyaiodl",
     packages=setuptools.find_packages(),
     install_requires=['aiohttp', 'fake-useragent', 'aiofiles'],
     classifiers=[
